@@ -1,0 +1,1346 @@
+{
+	"info": {
+		"_postman_id": "f0af1e24-9625-4896-85a3-1eb7b23340e5",
+		"name": "FinTech",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "21814719"
+	},
+	"item": [
+		{
+			"name": "paymob",
+			"item": [
+				{
+					"name": "tokens",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"api_key\": \"ZXlKaGJHY2lPaUpJVXpVeE1pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SmpiR0Z6Y3lJNklrMWxjbU5vWVc1MElpd2ljSEp2Wm1sc1pWOXdheUk2T1RNd05UazFMQ0p1WVcxbElqb2lhVzVwZEdsaGJDSjkuNW9lUkVxcDFvS1B0N0NCTzV1clhpdW5XMmEzNkI4bnhjN3BEZkc1NDZzVVhhNmcyblVqUnZxOU5IU3FGUGtROHhHdnU5U0pUa1c5aWtvZDBRbGwtcFE=\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "https://accept.paymob.com/api/auth/tokens"
+					},
+					"response": [
+						{
+							"name": "tokens",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"api_key\": \"ZXlKaGJHY2lPaUpJVXpVeE1pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SmpiR0Z6Y3lJNklrMWxjbU5vWVc1MElpd2ljSEp2Wm1sc1pWOXdheUk2T1RNd05UazFMQ0p1WVcxbElqb2lhVzVwZEdsaGJDSjkuNW9lUkVxcDFvS1B0N0NCTzV1clhpdW5XMmEzNkI4bnhjN3BEZkc1NDZzVVhhNmcyblVqUnZxOU5IU3FGUGtROHhHdnU5U0pUa1c5aWtvZDBRbGwtcFE=\"\r\n\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "https://accept.paymob.com/api/auth/tokens"
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Tue, 24 Oct 2023 17:48:07 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "3380"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Server",
+									"value": "nginx"
+								},
+								{
+									"key": "Allow",
+									"value": "POST, OPTIONS"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Language, Cookie, Origin"
+								},
+								{
+									"key": "Content-Language",
+									"value": "en"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "ALLOWALL"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-XSS-Protection",
+									"value": "1; mode=block"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000; includeSubdomains; preload"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"profile\": {\n        \"id\": 930595,\n        \"user\": {\n            \"id\": 1650271,\n            \"username\": \"01117393336\",\n            \"first_name\": \"Nadia\",\n            \"last_name\": \"Fahmy\",\n            \"date_joined\": \"2023-10-24T19:24:50.855382\",\n            \"email\": \"docnanoo2000@gmail.com\",\n            \"is_active\": true,\n            \"is_staff\": false,\n            \"is_superuser\": false,\n            \"last_login\": null,\n            \"groups\": [],\n            \"user_permissions\": [\n                160,\n                116,\n                119,\n                115,\n                213,\n                137,\n                204,\n                118,\n                131,\n                122,\n                128,\n                127,\n                203,\n                123,\n                140,\n                139,\n                455,\n                454,\n                130,\n                266,\n                124,\n                259,\n                121,\n                133,\n                206,\n                125,\n                129,\n                136,\n                185,\n                146,\n                126,\n                604,\n                258,\n                135,\n                138,\n                205,\n                117,\n                120,\n                186,\n                132,\n                134,\n                277\n            ]\n        },\n        \"created_at\": \"2023-10-24T19:24:50.870994\",\n        \"active\": true,\n        \"profile_type\": \"Merchant\",\n        \"phones\": [\n            \"+201117393336\"\n        ],\n        \"company_emails\": [\n            \"docnanoo2000@gmail.com\"\n        ],\n        \"company_name\": \"Nanoo\",\n        \"state\": \"\",\n        \"country\": \"EGY\",\n        \"city\": \"Cairo\",\n        \"postal_code\": \"\",\n        \"street\": \"\",\n        \"email_notification\": false,\n        \"order_retrieval_endpoint\": null,\n        \"delivery_update_endpoint\": null,\n        \"logo_url\": null,\n        \"is_mobadra\": false,\n        \"sector\": \"Finance\",\n        \"is_2fa_enabled\": false,\n        \"activation_method\": 1,\n        \"signed_up_through\": 0,\n        \"failed_attempts\": 0,\n        \"custom_export_columns\": [],\n        \"server_IP\": [],\n        \"username\": null,\n        \"primary_phone_number\": \"+201117393336\",\n        \"primary_phone_verified\": true,\n        \"is_temp_password\": false,\n        \"otp_2fa_sent_at\": null,\n        \"otp_2fa_attempt\": null,\n        \"otp_sent_at\": \"2023-10-24T19:27:39.963126\",\n        \"otp_sent_to\": \"01117393336\",\n        \"otp_validated_at\": \"2023-10-24T19:32:08.187649\",\n        \"awb_banner\": null,\n        \"email_banner\": null,\n        \"identification_number\": null,\n        \"delivery_status_callback\": \"\",\n        \"merchant_external_link\": null,\n        \"merchant_status\": 0,\n        \"deactivated_by_bank\": false,\n        \"bank_deactivation_reason\": null,\n        \"bank_merchant_status\": 0,\n        \"national_id\": null,\n        \"super_agent\": null,\n        \"wallet_limit_profile\": null,\n        \"address\": null,\n        \"commercial_registration\": null,\n        \"commercial_registration_area\": null,\n        \"distributor_code\": null,\n        \"distributor_branch_code\": null,\n        \"allow_terminal_order_id\": false,\n        \"allow_encryption_bypass\": false,\n        \"wallet_phone_number\": null,\n        \"suspicious\": 0,\n        \"latitude\": null,\n        \"longitude\": null,\n        \"bank_staffs\": {},\n        \"bank_rejection_reason\": null,\n        \"bank_received_documents\": false,\n        \"bank_merchant_digital_status\": 0,\n        \"bank_digital_rejection_reason\": null,\n        \"filled_business_data\": true,\n        \"day_start_time\": \"00:00:00\",\n        \"day_end_time\": null,\n        \"withhold_transfers\": false,\n        \"sms_sender_name\": \"PayMob\",\n        \"withhold_transfers_reason\": null,\n        \"withhold_transfers_notes\": null,\n        \"can_bill_deposit_with_card\": false,\n        \"can_topup_merchants\": false,\n        \"topup_transfer_id\": null,\n        \"referral_eligible\": false,\n        \"is_eligible_to_be_ranger\": false,\n        \"is_ranger\": false,\n        \"is_poaching\": false,\n        \"paymob_app_merchant\": false,\n        \"settlement_frequency\": null,\n        \"day_of_the_week\": null,\n        \"day_of_the_month\": null,\n        \"allow_transaction_notifications\": false,\n        \"allow_transfer_notifications\": false,\n        \"sallefny_amount_whole\": 0,\n        \"sallefny_fees_whole\": 0,\n        \"paymob_app_first_login\": null,\n        \"paymob_app_last_activity\": null,\n        \"payout_enabled\": false,\n        \"payout_terms\": false,\n        \"is_bills_new\": false,\n        \"can_process_multiple_refunds\": false,\n        \"settlement_classification\": 0,\n        \"instant_settlement_enabled\": false,\n        \"instant_settlement_transaction_otp_verified\": false,\n        \"preferred_language\": null,\n        \"acq_partner\": null,\n        \"dom\": null,\n        \"bank_related\": null,\n        \"permissions\": []\n    },\n    \"token\": \"ZXlKaGJHY2lPaUpJVXpVeE1pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SmpiR0Z6Y3lJNklrMWxjbU5vWVc1MElpd2ljSEp2Wm1sc1pWOXdheUk2T1RNd05UazFMQ0p3YUdGemFDSTZJamhpTlRGa05qRmxObVl6TldWaFpERTVZelZpTkdJMVlXRTJZMk0yWldVNE5ERmtNemcyTmpoallqazBPR1UxWTJVeE5EQXpaV1UxTkdRelltTTRNRFlpTENKbGVIQWlPakUyT1RneE56TXlPRGQ5Lksta2FDVk0tUlktRnlVMkRsMmppd3FEWXlQc05PSHMxcXlIbUxrbXo4VDlNSUd5MUFwUFRRSVRxLWRuS3pwUkRCREFHZzRscTFtQktYLTJscW15M2hB\"\n}"
+						}
+					]
+				},
+				{
+					"name": "orders",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"auth_token\":  \"ZXlKaGlPaUpJVXpVeE1pSX1Y0NJmV5Sn...\",\r\n  \"delivery_needed\": \"false\",\r\n  \"amount_cents\": \"100\",\r\n  \"currency\": \"EGP\",\r\n  \"merchant_order_id\": 5,\r\n  \"items\": [\r\n    {\r\n        \"name\": \"ASC1515\",\r\n        \"amount_cents\": \"500000\",\r\n        \"description\": \"Smart Watch\",\r\n        \"quantity\": \"1\"\r\n    },\r\n    { \r\n        \"name\": \"ERT6565\",\r\n        \"amount_cents\": \"200000\",\r\n        \"description\": \"Power Bank\",\r\n        \"quantity\": \"1\"\r\n    }\r\n    ],\r\n  \"shipping_data\": {\r\n    \"apartment\": \"803\", \r\n    \"email\": \"claudette09@exa.com\", \r\n    \"floor\": \"42\", \r\n    \"first_name\": \"Clifford\", \r\n    \"street\": \"Ethan Land\", \r\n    \"building\": \"8028\", \r\n    \"phone_number\": \"+86(8)9135210487\", \r\n    \"postal_code\": \"01898\", \r\n     \"extra_description\": \"8 Ram , 128 Giga\",\r\n    \"city\": \"Jaskolskiburgh\", \r\n    \"country\": \"CR\", \r\n    \"last_name\": \"Nicolas\", \r\n    \"state\": \"Utah\"\r\n  },\r\n    \"shipping_details\": {\r\n        \"notes\" : \" test\",\r\n        \"number_of_packages\": 1,\r\n        \"weight\" : 1,\r\n        \"weight_unit\" : \"Kilogram\",\r\n        \"length\" : 1,\r\n        \"width\" :1,\r\n        \"height\" :1,\r\n        \"contents\" : \"product of some sorts\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "https://accept.paymob.com/api/ecommerce/orders"
+					},
+					"response": [
+						{
+							"name": "orders",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"auth_token\":  \"ZXlKaGJHY2lPaUpJVXpVeE1pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SmpiR0Z6Y3lJNklrMWxjbU5vWVc1MElpd2ljSEp2Wm1sc1pWOXdheUk2T1RNd05UazFMQ0p3YUdGemFDSTZJamhpTlRGa05qRmxObVl6TldWaFpERTVZelZpTkdJMVlXRTJZMk0yWldVNE5ERmtNemcyTmpoallqazBPR1UxWTJVeE5EQXpaV1UxTkdRelltTTRNRFlpTENKbGVIQWlPakUyT1RneE56TXlPRGQ5Lksta2FDVk0tUlktRnlVMkRsMmppd3FEWXlQc05PSHMxcXlIbUxrbXo4VDlNSUd5MUFwUFRRSVRxLWRuS3pwUkRCREFHZzRscTFtQktYLTJscW15M2hB\",\r\n  \"delivery_needed\": \"false\",\r\n  \"amount_cents\": \"100\",\r\n  \"currency\": \"EGP\",\r\n  \"merchant_order_id\": 5,\r\n  \"items\": [\r\n    {\r\n        \"name\": \"ASC1515\",\r\n        \"amount_cents\": \"500000\",\r\n        \"description\": \"Smart Watch\",\r\n        \"quantity\": \"1\"\r\n    },\r\n    { \r\n        \"name\": \"ERT6565\",\r\n        \"amount_cents\": \"200000\",\r\n        \"description\": \"Power Bank\",\r\n        \"quantity\": \"1\"\r\n    }\r\n    ],\r\n  \"shipping_data\": {\r\n    \"apartment\": \"803\", \r\n    \"email\": \"claudette09@exa.com\", \r\n    \"floor\": \"42\", \r\n    \"first_name\": \"Clifford\", \r\n    \"street\": \"Ethan Land\", \r\n    \"building\": \"8028\", \r\n    \"phone_number\": \"+86(8)9135210487\", \r\n    \"postal_code\": \"01898\", \r\n     \"extra_description\": \"8 Ram , 128 Giga\",\r\n    \"city\": \"Jaskolskiburgh\", \r\n    \"country\": \"CR\", \r\n    \"last_name\": \"Nicolas\", \r\n    \"state\": \"Utah\"\r\n  },\r\n    \"shipping_details\": {\r\n        \"notes\" : \" test\",\r\n        \"number_of_packages\": 1,\r\n        \"weight\" : 1,\r\n        \"weight_unit\" : \"Kilogram\",\r\n        \"length\" : 1,\r\n        \"width\" :1,\r\n        \"height\" :1,\r\n        \"contents\" : \"product of some sorts\"\r\n    }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "https://accept.paymob.com/api/ecommerce/orders"
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Tue, 24 Oct 2023 17:51:29 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1617"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Server",
+									"value": "nginx"
+								},
+								{
+									"key": "Allow",
+									"value": "GET, POST, HEAD, OPTIONS"
+								},
+								{
+									"key": "Vary",
+									"value": "Accept-Language, Cookie, Origin"
+								},
+								{
+									"key": "Content-Language",
+									"value": "en"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "ALLOWALL"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-XSS-Protection",
+									"value": "1; mode=block"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000; includeSubdomains; preload"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": 159412767,\n    \"created_at\": \"2023-10-24T20:51:28.982139\",\n    \"delivery_needed\": false,\n    \"merchant\": {\n        \"id\": 930595,\n        \"created_at\": \"2023-10-24T19:24:50.870994\",\n        \"phones\": [\n            \"+201117393336\"\n        ],\n        \"company_emails\": [\n            \"docnanoo2000@gmail.com\"\n        ],\n        \"company_name\": \"Nanoo\",\n        \"state\": \"\",\n        \"country\": \"EGY\",\n        \"city\": \"Cairo\",\n        \"postal_code\": \"\",\n        \"street\": \"\"\n    },\n    \"collector\": null,\n    \"amount_cents\": 100,\n    \"shipping_data\": {\n        \"id\": 78395810,\n        \"first_name\": \"Clifford\",\n        \"last_name\": \"Nicolas\",\n        \"street\": \"Ethan Land\",\n        \"building\": \"8028\",\n        \"floor\": \"42\",\n        \"apartment\": \"803\",\n        \"city\": \"Jaskolskiburgh\",\n        \"state\": \"Utah\",\n        \"country\": \"CR\",\n        \"email\": \"claudette09@exa.com\",\n        \"phone_number\": \"+86(8)9135210487\",\n        \"postal_code\": \"01898\",\n        \"extra_description\": \"8 Ram , 128 Giga\",\n        \"shipping_method\": \"UNK\",\n        \"order_id\": 159412767,\n        \"order\": 159412767\n    },\n    \"currency\": \"EGP\",\n    \"is_payment_locked\": false,\n    \"is_return\": false,\n    \"is_cancel\": false,\n    \"is_returned\": false,\n    \"is_canceled\": false,\n    \"merchant_order_id\": \"5\",\n    \"wallet_notification\": null,\n    \"paid_amount_cents\": 0,\n    \"notify_user_with_email\": false,\n    \"items\": [\n        {\n            \"name\": \"ASC1515\",\n            \"description\": \"Smart Watch\",\n            \"amount_cents\": 500000,\n            \"quantity\": 1\n        },\n        {\n            \"name\": \"ERT6565\",\n            \"description\": \"Power Bank\",\n            \"amount_cents\": 200000,\n            \"quantity\": 1\n        }\n    ],\n    \"order_url\": \"https://accept.paymob.com/standalone/?ref=i_LRR2MGV0bjdlNkU1anBSYk9XZ3Z4S0xpdz09X0FPUmVDUThQNDM3RWZ5OGdiaWI0NXc9PQ\",\n    \"commission_fees\": 0,\n    \"delivery_fees_cents\": 0,\n    \"delivery_vat_cents\": 0,\n    \"payment_method\": \"tbc\",\n    \"merchant_staff_tag\": null,\n    \"api_source\": \"OTHER\",\n    \"data\": {},\n    \"token\": \"LRR2MGV0bjdlNkU1anBSYk9XZ3Z4S0xpdz09X0FPUmVDUThQNDM3RWZ5OGdiaWI0NXc9PQ\",\n    \"url\": \"https://accept.paymob.com/standalone/?ref=i_LRR2MGV0bjdlNkU1anBSYk9XZ3Z4S0xpdz09X0FPUmVDUThQNDM3RWZ5OGdiaWI0NXc9PQ\"\n}"
+						}
+					]
+				},
+				{
+					"name": "payment_keys",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "https://accept.paymob.com/api/acceptance/payment_keys"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Transaction",
+			"item": [
+				{
+					"name": "createTRX",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJkb2NuYW5vbzIwMDBAZ21haWwuY29tIiwiaWF0IjoxNjk4MjMxMjE1LCJleHAiOjE2OTgyMzQ4MTV9._w992pORb2D1Us2LO4EhdKkgdIE0CKgHAhfSoz9eyXM"
+							}
+						},
+						"method": "POST",
+						"header": [],
+						"url": "http://127.0.0.1:5005/Transaction/createTRX"
+					},
+					"response": [
+						{
+							"name": "createTRX",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"amount\":50.5\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "http://127.0.0.1:5005/Transaction/createTRX"
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "170"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"aa-VNkHUlj2//HSBmIKUr/L9ri6Hvo\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 25 Oct 2023 10:59:50 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": {\n        \"status\": \"pending\",\n        \"id\": 1,\n        \"UserId\": 2,\n        \"amount\": 50.5,\n        \"updatedAt\": \"2023-10-25T10:59:50.055Z\",\n        \"createdAt\": \"2023-10-25T10:59:50.055Z\"\n    },\n    \"message\": \"create Transaction\"\n}"
+						}
+					]
+				},
+				{
+					"name": "get TRX",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJkb2NuYW5vbzIwMDBAZ21haWwuY29tIiwiaWF0IjoxNjk4MjM2OTIyLCJleHAiOjE2OTgyNDA1MjJ9.UKZWAA_Dv-oLWqTx-PoCXNNWqCOi3qo5WDxXXpIxgio"
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5005/Transaction/getTrxByID/1",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5005",
+							"path": [
+								"Transaction",
+								"getTrxByID",
+								"1"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "get trx",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://127.0.0.1:5005/Transaction/getTrxByID/1",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "5005",
+									"path": [
+										"Transaction",
+										"getTrxByID",
+										"1"
+									],
+									"query": [
+										{
+											"key": "id",
+											"value": "1",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "214"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"d6-W/VQIQ45o5iOTd35+8Bh8dKsnNs\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 25 Oct 2023 12:32:37 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": 1,\n    \"message\": \"get Transactions by id successfully\",\n    \"data\": {\n        \"Transaction\": {\n            \"id\": 1,\n            \"amount\": 50.5,\n            \"status\": \"pending\",\n            \"createdAt\": \"2023-10-25T10:59:50.055Z\",\n            \"updatedAt\": \"2023-10-25T10:59:50.055Z\",\n            \"UserId\": 2\n        }\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "payTrxByID",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJkb25hbm9vMjAwMEBnbWFpbC5jb20iLCJpYXQiOjE2OTgyNzIyNDIsImV4cCI6MTY5ODI3NTg0Mn0.gtFx_OblEDWki8Nox5_HQsydBnTrW_MNaI3QRq5VUuc"
+							}
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"amount\":\"50\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:5005/Transaction/payTrxByID/11"
+					},
+					"response": [
+						{
+							"name": "payTrxByID",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"amount\":\"50\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "http://127.0.0.1:5005/Transaction/payTrxByID/11"
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "40"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"28-La+yxVXaqnZfuxJYFrSII6c35uM\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 25 Oct 2023 22:19:46 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": [\n        1\n    ],\n    \"message\": \"pay Transaction\"\n}"
+						}
+					]
+				},
+				{
+					"name": "updateTRX",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJkb25hbm9vMjAwMEBnbWFpbC5jb20iLCJpYXQiOjE2OTgyNzIyNDIsImV4cCI6MTY5ODI3NTg0Mn0.gtFx_OblEDWki8Nox5_HQsydBnTrW_MNaI3QRq5VUuc"
+							}
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"UserId\":2\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:5005/Transaction/updateTRX/11"
+					},
+					"response": [
+						{
+							"name": "updateTRX",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"UserId\":2\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "http://127.0.0.1:5005/Transaction/updateTRX/11"
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "170"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"aa-7YP5RFE883wkvvjtnuGpkSz+BsY\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 25 Oct 2023 22:25:01 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": {\n        \"id\": 11,\n        \"amount\": 50,\n        \"status\": \"success\",\n        \"createdAt\": \"2023-10-25T19:40:32.470Z\",\n        \"updatedAt\": \"2023-10-25T22:25:01.309Z\",\n        \"UserId\": 2\n    },\n    \"message\": \"updated Transaction\"\n}"
+						}
+					]
+				},
+				{
+					"name": "deleteTRX",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "http://127.0.0.1:5005/Transaction/deleteTRX/14"
+					},
+					"response": [
+						{
+							"name": "deleteTRX",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [],
+								"url": "http://127.0.0.1:5005/Transaction/deleteTRX/11"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "46"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"2e-pkl1+AjHvtweaYX2VIiqpi6e28k\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 25 Oct 2023 22:31:20 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": 1,\n    \"message\": \"deleted  successfully\"\n}"
+						}
+					]
+				},
+				{
+					"name": "getAllTRX",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJkb25hbm9vMjAwMEBnbWFpbC5jb20iLCJpYXQiOjE2OTgyNzIyNDIsImV4cCI6MTY5ODI3NTg0Mn0.gtFx_OblEDWki8Nox5_HQsydBnTrW_MNaI3QRq5VUuc"
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"url": "http://127.0.0.1:5005/Transaction/getAllTRX"
+					},
+					"response": [
+						{
+							"name": "getAllTRX",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": "http://127.0.0.1:5005/Transaction/getAllTRX"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1803"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"70b-jcUSY1HYD2Z/QR3BRgzCRjN6yTQ\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 25 Oct 2023 22:35:05 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": 1,\n    \"message\": \"get all Transactions successfully\",\n    \"data\": {\n        \"Transaction\": [\n            {\n                \"id\": 2,\n                \"amount\": 10,\n                \"status\": \"pending\",\n                \"createdAt\": \"2023-10-25T11:04:27.969Z\",\n                \"updatedAt\": \"2023-10-25T11:04:27.969Z\",\n                \"UserId\": null\n            },\n            {\n                \"id\": 3,\n                \"amount\": 10,\n                \"status\": \"pending\",\n                \"createdAt\": \"2023-10-25T12:06:57.749Z\",\n                \"updatedAt\": \"2023-10-25T12:06:57.749Z\",\n                \"UserId\": null\n            },\n            {\n                \"id\": 4,\n                \"amount\": 10,\n                \"status\": \"pending\",\n                \"createdAt\": \"2023-10-25T12:07:37.319Z\",\n                \"updatedAt\": \"2023-10-25T12:07:37.319Z\",\n                \"UserId\": null\n            },\n            {\n                \"id\": 5,\n                \"amount\": 10,\n                \"status\": \"pending\",\n                \"createdAt\": \"2023-10-25T12:08:01.260Z\",\n                \"updatedAt\": \"2023-10-25T12:08:01.260Z\",\n                \"UserId\": null\n            },\n            {\n                \"id\": 6,\n                \"amount\": 10,\n                \"status\": \"pending\",\n                \"createdAt\": \"2023-10-25T12:08:24.072Z\",\n                \"updatedAt\": \"2023-10-25T12:08:24.072Z\",\n                \"UserId\": null\n            },\n            {\n                \"id\": 7,\n                \"amount\": 10,\n                \"status\": \"pending\",\n                \"createdAt\": \"2023-10-25T12:09:04.192Z\",\n                \"updatedAt\": \"2023-10-25T12:09:04.192Z\",\n                \"UserId\": null\n            },\n            {\n                \"id\": 8,\n                \"amount\": 50,\n                \"status\": \"pending\",\n                \"createdAt\": \"2023-10-25T16:08:32.973Z\",\n                \"updatedAt\": \"2023-10-25T16:08:32.973Z\",\n                \"UserId\": null\n            },\n            {\n                \"id\": 9,\n                \"amount\": 15,\n                \"status\": \"pending\",\n                \"createdAt\": \"2023-10-25T19:34:43.230Z\",\n                \"updatedAt\": \"2023-10-25T19:34:43.230Z\",\n                \"UserId\": null\n            },\n            {\n                \"id\": 10,\n                \"amount\": 15,\n                \"status\": \"pending\",\n                \"createdAt\": \"2023-10-25T19:40:23.675Z\",\n                \"updatedAt\": \"2023-10-25T19:40:23.675Z\",\n                \"UserId\": null\n            },\n            {\n                \"id\": 12,\n                \"amount\": 500,\n                \"status\": \"pending\",\n                \"createdAt\": \"2023-10-25T19:41:15.634Z\",\n                \"updatedAt\": \"2023-10-25T19:41:15.634Z\",\n                \"UserId\": null\n            },\n            {\n                \"id\": 13,\n                \"amount\": 50,\n                \"status\": \"pending\",\n                \"createdAt\": \"2023-10-25T19:41:28.303Z\",\n                \"updatedAt\": \"2023-10-25T19:41:28.303Z\",\n                \"UserId\": null\n            },\n            {\n                \"id\": 14,\n                \"amount\": 50,\n                \"status\": \"pending\",\n                \"createdAt\": \"2023-10-25T22:17:39.387Z\",\n                \"updatedAt\": \"2023-10-25T22:17:39.387Z\",\n                \"UserId\": null\n            },\n            {\n                \"id\": 1,\n                \"amount\": 50.5,\n                \"status\": \"success\",\n                \"createdAt\": \"2023-10-25T10:59:50.055Z\",\n                \"updatedAt\": \"2023-10-25T22:18:06.755Z\",\n                \"UserId\": 2\n            }\n        ]\n    }\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "signup",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n     \"username\":\"nadia Fahmy\" ,\r\n      \"phoneNumber\":\"01117393390\" , \r\n      \"gender\" :\"female\", \r\n      \"password\":\"123456789\",\r\n      \"email\":\"docnanoo2000@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:5005/user/signup"
+					},
+					"response": [
+						{
+							"name": "created",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n     \"username\":\"nadia Fahmy\" ,\r\n      \"phoneNumber\":\"01117393390\" , \r\n      \"gender\" :\"female\", \r\n      \"password\":\"123456789\",\r\n      \"email\":\"docnanoo2000@gmail.com\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "http://127.0.0.1:5005/user/signup"
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "574"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"23e-edif2VvIKC0r/SysrlZwu8oD8P4\""
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 24 Oct 2023 14:59:44 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": {\n        \"createdAt\": \"2023-10-24T14:59:42.851Z\",\n        \"updatedAt\": \"2023-10-24T14:59:42.851Z\",\n        \"verified\": false,\n        \"OTP\": false,\n        \"id\": 1,\n        \"email\": \"docnanoo2000@gmail.com\",\n        \"password\": \"$2a$08$EEOI17Vq0zDt8uEszBdxke6Q2oRJ23oqzGyUzk31QWz0Ma.lLc7we\",\n        \"emailOTP\": \"x9tipk6oah\",\n        \"username\": \"nadia Fahmy\",\n        \"phoneNumber\": \"01117393390\",\n        \"gender\": \"female\"\n    },\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJkb2NuYW5vbzIwMDBAZ21haWwuY29tIiwiaWF0IjoxNjk4MTU5NTg0LCJleHAiOjE2OTgxNjMxODR9.5ZoCdCOX-ByBg9hm_vA0pCGpMhii2sy4Q0gU0ehbmCI\",\n    \"message\": \"An Email sent to your account please verify\"\n}"
+						},
+						{
+							"name": "email already exists",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n     \"username\":\"nadia Fahmy\" ,\r\n      \"phoneNumber\":\"01117393390\" , \r\n      \"gender\" :\"female\", \r\n      \"password\":\"123456789\",\r\n      \"email\":\"docnanoo2000@gmail.com\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "http://127.0.0.1:5005/user/signup"
+							},
+							"status": "Conflict",
+							"code": 409,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "34"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"22-fvcVG+C+VpUzHbjTsLZjVW79Ew8\""
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 24 Oct 2023 15:00:45 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"email already exists\"\n}"
+						}
+					]
+				},
+				{
+					"name": "send OTP",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n     \"username\":\"nadia Fahmy\" ,\r\n      \"phoneNumber\":\"01117393390\" , \r\n      \"gender\" :\"female\", \r\n      \"password\":\"123456789\",\r\n      \"email\":\"docnanoo2000@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:5005/user/signup"
+					},
+					"response": [
+						{
+							"name": "send otp",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \r\n      \"email\":\"docnanoo2000@gmail.com\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "http://127.0.0.1:5005/user/sendOTP"
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "29"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"1d-8PlB5yrMpt8rIVILPmM74+J8+pI\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 25 Oct 2023 09:59:22 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": {\n        \"otp\": \"amgts9jy2w\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"docnanoo2000@gmail.com\",\r\n    \"password\": \"123456789\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:5005/user/login"
+					},
+					"response": [
+						{
+							"name": "Invalid email - not verified",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"email\": \"docnanoo2000@gmail.com\",\r\n    \"password\": \"123456789\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "http://127.0.0.1:5005/user/login"
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "27"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"1b-evcYq0xWsuHqdKUOxQRsPiOIt60\""
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 24 Oct 2023 15:05:08 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Invalid email\"\n}"
+						},
+						{
+							"name": "success",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"email\": \"docnanoo2000@gmail.com\",\r\n    \"password\": \"123456789\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "http://127.0.0.1:5005/user/login"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "257"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"101-ALYnvvv5eCuItMHtyan+8K7Gx4g\""
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 24 Oct 2023 15:41:51 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"phoneNumber\": \"01117393390\",\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJkb2NuYW5vbzIwMDBAZ21haWwuY29tIiwiaWF0IjoxNjk4MTYyMTExLCJleHAiOjE2OTgxNjU3MTF9.LLD1OkcNaD5UZvLKZPqOP9HnaYFeYhpRdjxMKNDPSzU\",\n    \"message\": \"User login successfully\"\n}"
+						}
+					]
+				},
+				{
+					"name": "verifyEmail",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "http://127.0.0.1:5005/user/verifyEmail"
+					},
+					"response": [
+						{
+							"name": "invalidOTP",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n \"email\":\"docnanoo2000@gmail.com\",\r\n \"otp\":\"ex4j4c252k\"\r\n\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "http://127.0.0.1:5005/user/verifyEmail"
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "html",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Security-Policy",
+									"value": "default-src 'none'"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Content-Type",
+									"value": "text/html; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "451"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 24 Oct 2023 15:28:53 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"utf-8\">\n        <title>Error</title>\n    </head>\n    <body>\n        <pre>Error: Invalid OTP\n            <br> &nbsp; &nbsp;at validateUserSignUp (C:\\Users\\Nanoo\\Desktop\\fintech example\\middleware\\index.js:66:46)\n            <br> &nbsp; &nbsp;at processTicksAndRejections (node:internal/process/task_queues:96:5)\n            <br> &nbsp; &nbsp;at async exports.verifyEmail (C:\\Users\\Nanoo\\Desktop\\fintech example\\controllers\\user.js:27:18)\n        </pre>\n    </body>\n</html>"
+						},
+						{
+							"name": "USER NOT FOUND",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n \"email\":\"docnanoo2000@gmail.cm\",\r\n \"otp\":\"ex4j4c252k\"\r\n\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "http://127.0.0.1:5005/user/verifyEmail"
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "html",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Security-Policy",
+									"value": "default-src 'none'"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Content-Type",
+									"value": "text/html; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "464"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 24 Oct 2023 15:29:11 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"utf-8\">\n        <title>Error</title>\n    </head>\n    <body>\n        <pre>Error: user not found Not Found\n            <br> &nbsp; &nbsp;at validateUserSignUp (C:\\Users\\Nanoo\\Desktop\\fintech example\\middleware\\index.js:65:28)\n            <br> &nbsp; &nbsp;at processTicksAndRejections (node:internal/process/task_queues:96:5)\n            <br> &nbsp; &nbsp;at async exports.verifyEmail (C:\\Users\\Nanoo\\Desktop\\fintech example\\controllers\\user.js:27:18)\n        </pre>\n    </body>\n</html>"
+						},
+						{
+							"name": "verifyEmail",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n \"email\":\"docnanoo2000@gmail.com\",\r\n \"otp\":\"i6aqn1vb84\"\r\n\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "http://127.0.0.1:5005/user/verifyEmail"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "46"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"2e-OrylHlB3HF7W8Pf6Qop2qiJ3S4g\""
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 24 Oct 2023 15:30:18 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": 1,\n    \"message\": \"verified successfully\"\n}"
+						}
+					]
+				},
+				{
+					"name": "OTP EMAIL SIGN IN",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "http://127.0.0.1:5005/user/verifyEmail"
+					},
+					"response": [
+						{
+							"name": "INVALID OTP",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n \"email\":\"docnanoo2000@gmail.com\",\r\n \"otp\":\"i6aqn1vb84\"\r\n\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "http://127.0.0.1:5005/user/verifyEmailOTP"
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "html",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Security-Policy",
+									"value": "default-src 'none'"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Content-Type",
+									"value": "text/html; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "453"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 24 Oct 2023 15:34:53 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"utf-8\">\n        <title>Error</title>\n    </head>\n    <body>\n        <pre>Error: Invalid OTP\n            <br> &nbsp; &nbsp;at validateUserLogIn (C:\\Users\\Nanoo\\Desktop\\fintech example\\middleware\\index.js:72:46)\n            <br> &nbsp; &nbsp;at processTicksAndRejections (node:internal/process/task_queues:96:5)\n            <br> &nbsp; &nbsp;at async exports.verifyEmailOTP (C:\\Users\\Nanoo\\Desktop\\fintech example\\controllers\\user.js:39:18)\n        </pre>\n    </body>\n</html>"
+						},
+						{
+							"name": "USER NOT FOUND",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n \"email\":\"docnanoo2000@gmal.com\",\r\n \"otp\":\"i6aqn1vb84\"\r\n\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "http://127.0.0.1:5005/user/verifyEmailOTP"
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "html",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Security-Policy",
+									"value": "default-src 'none'"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Content-Type",
+									"value": "text/html; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "466"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 24 Oct 2023 15:35:24 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"utf-8\">\n        <title>Error</title>\n    </head>\n    <body>\n        <pre>Error: user not found Not Found\n            <br> &nbsp; &nbsp;at validateUserLogIn (C:\\Users\\Nanoo\\Desktop\\fintech example\\middleware\\index.js:71:28)\n            <br> &nbsp; &nbsp;at processTicksAndRejections (node:internal/process/task_queues:96:5)\n            <br> &nbsp; &nbsp;at async exports.verifyEmailOTP (C:\\Users\\Nanoo\\Desktop\\fintech example\\controllers\\user.js:39:18)\n        </pre>\n    </body>\n</html>"
+						},
+						{
+							"name": "verifyEmail",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n \"email\":\"docnanoo2000@gmail.com\",\r\n \"otp\":\"dcvtek7lhg\"\r\n\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "http://127.0.0.1:5005/user/verifyEmailOTP"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "46"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"2e-OrylHlB3HF7W8Pf6Qop2qiJ3S4g\""
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 24 Oct 2023 15:41:32 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": 1,\n    \"message\": \"verified successfully\"\n}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
